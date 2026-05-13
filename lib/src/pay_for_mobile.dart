@@ -125,7 +125,7 @@ class PayForMobile implements MakePlatformSpecificPayment {
               );
               onClosed();
             },
-            callbackUrl: callBackUrl ?? 'https://varo.ng/api/payment/callback',
+            callbackUrl: callBackUrl ?? 'https://varo.com.ng/api/payment/callback',
           ),
         ),
       );
